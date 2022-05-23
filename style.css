@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Nunito",serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(15, 4, 63)
+}
+.container .box{
+    width: 400px;
+    height: 300px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ddd;
+    border-radius: 6px;
+}
+.container .box h2{
+    font-size: 30px;
+    margin-bottom: 1.2rem;
+    color: rgb(10, 0, 0);
+
+}
+ .box .result{
+    color: rebeccapurple;
+    font-weight: 700;
+    margin-bottom: 2.2rem;
+    border: 2px dashed rgb(8, 8, 8);
+    padding: 4px 20px;
+    font-size: 20px;
+    
+
+}
+.box button{
+    outline: none;
+    padding: 12px 40px;
+    background-color: green;
+    color: white;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+
+}
+.box button:hover{
+     background-color:#030953;
+    
+ ;
+}
